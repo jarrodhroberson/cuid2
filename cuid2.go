@@ -1,4 +1,4 @@
-package GOCUID2
+package gocuid2
 
 import (
 	"fmt"
@@ -82,8 +82,7 @@ func computeHash(content string, saltLength int) string {
 	salt := createEntropy(saltLength)
 	bytes := []byte(sha3.New256().Sum([]byte(content + salt)))
 	bi := big.Int{}
-	bi.SetBytes(bytes)
-	return bi.Text(36)
+	return bi.SetBytes(bytes).Text(36)
 }
 
 func padWithZero(str string, size int) string {

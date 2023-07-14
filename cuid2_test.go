@@ -1,4 +1,4 @@
-package GOCUID2
+package gocuid2
 
 import (
 	"testing"
