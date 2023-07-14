@@ -8,8 +8,6 @@ import (
 	"os"
 	"strconv"
 	"time"
-
-	"golang.org/x/crypto/sha3"
 )
 
 var primeNumbers = []int{
