@@ -1,4 +1,4 @@
-package gocuid2
+package cuid2
 
 import (
 	"fmt"

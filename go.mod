@@ -1,4 +1,4 @@
-module github.com/jarrodhroberson/gocuid2
+module github.com/jarrodhroberson/cuid2
 
 go 1.20
 
