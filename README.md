@@ -1,3 +1,5 @@
+[![SLSA Go releaser](https://github.com/jarrodhroberson/cuid2/actions/workflows/go-ossf-slsa3-publish.yml/badge.svg)](https://github.com/jarrodhroberson/cuid2/actions/workflows/go-ossf-slsa3-publish.yml)
+
 # GOCUID2
 Go port of CUID2 unique identifier from studying JavaScript and Java implemenations.
 
