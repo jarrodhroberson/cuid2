@@ -92,6 +92,10 @@ func padWithZero(str string, size int) string {
 
 type CUID2 string
 
+func (c CUID2) String() string {
+	return string(c)
+}
+
 func New(l int) CUID2 {
 	t := strconv.FormatInt(time.Now().UnixMilli(), 36)
 	firstLetter := alphabet_array[int(math.Abs(float64(nextIntValue()%len(alphabet_array))))]
